@@ -1,16 +1,31 @@
-## Hi there 👋
+<script>
+    // โหลดสถานะตอนเปิดเว็บ
+    window.onload = function() {
+      document.querySelectorAll(".card").forEach(card => {
+        let name = card.querySelector("strong").innerText; // ใช้ชื่อจาก <strong>
+        let owned = localStorage.getItem(name); 
+        if (owned === "true") {
+          card.classList.add("border-green-500", "bg-green-900");
+          card.querySelector("input").checked = true;
+        }
+      });
+    };
 
-<!--
-**Prapatpong-D/Prapatpong-D** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    // ฟังก์ชันเวลาติ๊ก checkbox
+    function toggleOwned(checkbox) {
+      let card = checkbox.closest(".card");
+      let name = card.querySelector("strong").innerText;
+      let isOwned = checkbox.checked;
 
-Here are some ideas to get you started:
+      // ล้างของเดิมก่อน แล้วค่อยใส่
+      card.classList.remove("border-gray-300", "bg-gradient-to-b", "from-black/30", "to-black/60", "border-green-500", "bg-green-900");
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+      if (isOwned) {
+        card.classList.add("border-green-500", "bg-green-900");
+      } else {
+        card.classList.add("border-gray-300", "bg-gradient-to-b", "from-black/30", "to-black/60");
+      }
+
+      localStorage.setItem(name, isOwned);
+    }
+  </script>
