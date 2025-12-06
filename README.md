@@ -18,5 +18,4 @@ I interesting in various technology and i'm trying to learn everything that i wa
 
 <p align="left"> <a href="https://www.github.com/Prapatpong-D" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" /> </picture> </a></p>
 
-<a href="https://github.com/Prapatpong-D" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prapatpong-
-<p>I love psychological game with mental illness waifu ˚ʚ♡ɞ˚</p>
+<h3>I love psychological game with mental illness waifu ˚ʚ♡ɞ˚</h3>
