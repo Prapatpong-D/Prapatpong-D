@@ -1,8 +1,7 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Prapatpong-D
-
 Noob Dev
 --------------------
 
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Prapatpong-D
 I interesting in various technology and i'm trying to learn everything that i want to!
 
 * 🧠  I'm currently learning JavaScript, Astro And More
